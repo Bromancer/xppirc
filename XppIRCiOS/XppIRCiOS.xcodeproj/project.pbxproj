@@ -7,68 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC1659331E227758003DCD9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1659321E227758003DCD9A /* AppDelegate.swift */; };
-		CC1659351E227758003DCD9A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1659341E227758003DCD9A /* RootViewController.swift */; };
-		CC1659371E227758003DCD9A /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1659361E227758003DCD9A /* DataViewController.swift */; };
-		CC1659391E227758003DCD9A /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1659381E227758003DCD9A /* ModelController.swift */; };
-		CC16593C1E227758003DCD9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC16593A1E227758003DCD9A /* Main.storyboard */; };
-		CC16593E1E227759003DCD9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC16593D1E227759003DCD9A /* Assets.xcassets */; };
-		CC1659411E227759003DCD9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC16593F1E227759003DCD9A /* LaunchScreen.storyboard */; };
-		CC16594C1E227759003DCD9A /* XppIRCiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC16594B1E227759003DCD9A /* XppIRCiOSTests.swift */; };
-		CC1659571E227759003DCD9A /* XppIRCiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1659561E227759003DCD9A /* XppIRCiOSUITests.swift */; };
+		CC1659931E22819E003DCD9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1659921E22819E003DCD9A /* AppDelegate.swift */; };
+		CC1659951E22819E003DCD9A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1659941E22819E003DCD9A /* RootViewController.swift */; };
+		CC1659971E22819E003DCD9A /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1659961E22819E003DCD9A /* DataViewController.swift */; };
+		CC1659991E22819E003DCD9A /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1659981E22819E003DCD9A /* ModelController.swift */; };
+		CC16599C1E22819E003DCD9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC16599A1E22819E003DCD9A /* Main.storyboard */; };
+		CC16599E1E22819E003DCD9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC16599D1E22819E003DCD9A /* Assets.xcassets */; };
+		CC1659A11E22819E003DCD9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC16599F1E22819E003DCD9A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CC1659481E227759003DCD9A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CC1659271E227758003DCD9A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CC16592E1E227758003DCD9A;
-			remoteInfo = XppIRCiOS;
-		};
-		CC1659531E227759003DCD9A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CC1659271E227758003DCD9A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CC16592E1E227758003DCD9A;
-			remoteInfo = XppIRCiOS;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		CC16592F1E227758003DCD9A /* XppIRCiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XppIRCiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC1659321E227758003DCD9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC1659341E227758003DCD9A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		CC1659361E227758003DCD9A /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		CC1659381E227758003DCD9A /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		CC16593B1E227758003DCD9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CC16593D1E227759003DCD9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CC1659401E227759003DCD9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CC1659421E227759003DCD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC1659471E227759003DCD9A /* XppIRCiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XppIRCiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC16594B1E227759003DCD9A /* XppIRCiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XppIRCiOSTests.swift; sourceTree = "<group>"; };
-		CC16594D1E227759003DCD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC1659521E227759003DCD9A /* XppIRCiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XppIRCiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC1659561E227759003DCD9A /* XppIRCiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XppIRCiOSUITests.swift; sourceTree = "<group>"; };
-		CC1659581E227759003DCD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC16598F1E22819E003DCD9A /* XppIRCiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XppIRCiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1659921E22819E003DCD9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC1659941E22819E003DCD9A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		CC1659961E22819E003DCD9A /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		CC1659981E22819E003DCD9A /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		CC16599B1E22819E003DCD9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC16599D1E22819E003DCD9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC1659A01E22819E003DCD9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC1659A21E22819E003DCD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CC16592C1E227758003DCD9A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC1659441E227759003DCD9A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC16594F1E227759003DCD9A /* Frameworks */ = {
+		CC16598C1E22819E003DCD9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,69 +39,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CC1659261E227758003DCD9A = {
+		CC1659861E22819E003DCD9A = {
 			isa = PBXGroup;
 			children = (
-				CC1659311E227758003DCD9A /* XppIRCiOS */,
-				CC16594A1E227759003DCD9A /* XppIRCiOSTests */,
-				CC1659551E227759003DCD9A /* XppIRCiOSUITests */,
-				CC1659301E227758003DCD9A /* Products */,
+				CC1659911E22819E003DCD9A /* XppIRCiOS */,
+				CC1659901E22819E003DCD9A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CC1659301E227758003DCD9A /* Products */ = {
+		CC1659901E22819E003DCD9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC16592F1E227758003DCD9A /* XppIRCiOS.app */,
-				CC1659471E227759003DCD9A /* XppIRCiOSTests.xctest */,
-				CC1659521E227759003DCD9A /* XppIRCiOSUITests.xctest */,
+				CC16598F1E22819E003DCD9A /* XppIRCiOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CC1659311E227758003DCD9A /* XppIRCiOS */ = {
+		CC1659911E22819E003DCD9A /* XppIRCiOS */ = {
 			isa = PBXGroup;
 			children = (
-				CC1659321E227758003DCD9A /* AppDelegate.swift */,
-				CC1659341E227758003DCD9A /* RootViewController.swift */,
-				CC1659361E227758003DCD9A /* DataViewController.swift */,
-				CC1659381E227758003DCD9A /* ModelController.swift */,
-				CC16593A1E227758003DCD9A /* Main.storyboard */,
-				CC16593D1E227759003DCD9A /* Assets.xcassets */,
-				CC16593F1E227759003DCD9A /* LaunchScreen.storyboard */,
-				CC1659421E227759003DCD9A /* Info.plist */,
+				CC1659921E22819E003DCD9A /* AppDelegate.swift */,
+				CC1659941E22819E003DCD9A /* RootViewController.swift */,
+				CC1659961E22819E003DCD9A /* DataViewController.swift */,
+				CC1659981E22819E003DCD9A /* ModelController.swift */,
+				CC16599A1E22819E003DCD9A /* Main.storyboard */,
+				CC16599D1E22819E003DCD9A /* Assets.xcassets */,
+				CC16599F1E22819E003DCD9A /* LaunchScreen.storyboard */,
+				CC1659A21E22819E003DCD9A /* Info.plist */,
 			);
 			path = XppIRCiOS;
-			sourceTree = "<group>";
-		};
-		CC16594A1E227759003DCD9A /* XppIRCiOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				CC16594B1E227759003DCD9A /* XppIRCiOSTests.swift */,
-				CC16594D1E227759003DCD9A /* Info.plist */,
-			);
-			path = XppIRCiOSTests;
-			sourceTree = "<group>";
-		};
-		CC1659551E227759003DCD9A /* XppIRCiOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CC1659561E227759003DCD9A /* XppIRCiOSUITests.swift */,
-				CC1659581E227759003DCD9A /* Info.plist */,
-			);
-			path = XppIRCiOSUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CC16592E1E227758003DCD9A /* XppIRCiOS */ = {
+		CC16598E1E22819E003DCD9A /* XppIRCiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC16595B1E227759003DCD9A /* Build configuration list for PBXNativeTarget "XppIRCiOS" */;
+			buildConfigurationList = CC1659A51E22819E003DCD9A /* Build configuration list for PBXNativeTarget "XppIRCiOS" */;
 			buildPhases = (
-				CC16592B1E227758003DCD9A /* Sources */,
-				CC16592C1E227758003DCD9A /* Frameworks */,
-				CC16592D1E227758003DCD9A /* Resources */,
+				CC16598B1E22819E003DCD9A /* Sources */,
+				CC16598C1E22819E003DCD9A /* Frameworks */,
+				CC16598D1E22819E003DCD9A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -148,75 +87,27 @@
 			);
 			name = XppIRCiOS;
 			productName = XppIRCiOS;
-			productReference = CC16592F1E227758003DCD9A /* XppIRCiOS.app */;
+			productReference = CC16598F1E22819E003DCD9A /* XppIRCiOS.app */;
 			productType = "com.apple.product-type.application";
-		};
-		CC1659461E227759003DCD9A /* XppIRCiOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CC16595E1E227759003DCD9A /* Build configuration list for PBXNativeTarget "XppIRCiOSTests" */;
-			buildPhases = (
-				CC1659431E227759003DCD9A /* Sources */,
-				CC1659441E227759003DCD9A /* Frameworks */,
-				CC1659451E227759003DCD9A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CC1659491E227759003DCD9A /* PBXTargetDependency */,
-			);
-			name = XppIRCiOSTests;
-			productName = XppIRCiOSTests;
-			productReference = CC1659471E227759003DCD9A /* XppIRCiOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CC1659511E227759003DCD9A /* XppIRCiOSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CC1659611E227759003DCD9A /* Build configuration list for PBXNativeTarget "XppIRCiOSUITests" */;
-			buildPhases = (
-				CC16594E1E227759003DCD9A /* Sources */,
-				CC16594F1E227759003DCD9A /* Frameworks */,
-				CC1659501E227759003DCD9A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CC1659541E227759003DCD9A /* PBXTargetDependency */,
-			);
-			name = XppIRCiOSUITests;
-			productName = XppIRCiOSUITests;
-			productReference = CC1659521E227759003DCD9A /* XppIRCiOSUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CC1659271E227758003DCD9A /* Project object */ = {
+		CC1659871E22819E003DCD9A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Bromancer;
 				TargetAttributes = {
-					CC16592E1E227758003DCD9A = {
+					CC16598E1E22819E003DCD9A = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3YC373B5PT;
 						ProvisioningStyle = Automatic;
-					};
-					CC1659461E227759003DCD9A = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 3YC373B5PT;
-						ProvisioningStyle = Automatic;
-						TestTargetID = CC16592E1E227758003DCD9A;
-					};
-					CC1659511E227759003DCD9A = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 3YC373B5PT;
-						ProvisioningStyle = Automatic;
-						TestTargetID = CC16592E1E227758003DCD9A;
 					};
 				};
 			};
-			buildConfigurationList = CC16592A1E227758003DCD9A /* Build configuration list for PBXProject "XppIRCiOS" */;
+			buildConfigurationList = CC16598A1E22819E003DCD9A /* Build configuration list for PBXProject "XppIRCiOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -224,101 +115,56 @@
 				en,
 				Base,
 			);
-			mainGroup = CC1659261E227758003DCD9A;
-			productRefGroup = CC1659301E227758003DCD9A /* Products */;
+			mainGroup = CC1659861E22819E003DCD9A;
+			productRefGroup = CC1659901E22819E003DCD9A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC16592E1E227758003DCD9A /* XppIRCiOS */,
-				CC1659461E227759003DCD9A /* XppIRCiOSTests */,
-				CC1659511E227759003DCD9A /* XppIRCiOSUITests */,
+				CC16598E1E22819E003DCD9A /* XppIRCiOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CC16592D1E227758003DCD9A /* Resources */ = {
+		CC16598D1E22819E003DCD9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC1659411E227759003DCD9A /* LaunchScreen.storyboard in Resources */,
-				CC16593E1E227759003DCD9A /* Assets.xcassets in Resources */,
-				CC16593C1E227758003DCD9A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC1659451E227759003DCD9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC1659501E227759003DCD9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CC1659A11E22819E003DCD9A /* LaunchScreen.storyboard in Resources */,
+				CC16599E1E22819E003DCD9A /* Assets.xcassets in Resources */,
+				CC16599C1E22819E003DCD9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CC16592B1E227758003DCD9A /* Sources */ = {
+		CC16598B1E22819E003DCD9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC1659351E227758003DCD9A /* RootViewController.swift in Sources */,
-				CC1659391E227758003DCD9A /* ModelController.swift in Sources */,
-				CC1659371E227758003DCD9A /* DataViewController.swift in Sources */,
-				CC1659331E227758003DCD9A /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC1659431E227759003DCD9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC16594C1E227759003DCD9A /* XppIRCiOSTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC16594E1E227759003DCD9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC1659571E227759003DCD9A /* XppIRCiOSUITests.swift in Sources */,
+				CC1659951E22819E003DCD9A /* RootViewController.swift in Sources */,
+				CC1659991E22819E003DCD9A /* ModelController.swift in Sources */,
+				CC1659971E22819E003DCD9A /* DataViewController.swift in Sources */,
+				CC1659931E22819E003DCD9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		CC1659491E227759003DCD9A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CC16592E1E227758003DCD9A /* XppIRCiOS */;
-			targetProxy = CC1659481E227759003DCD9A /* PBXContainerItemProxy */;
-		};
-		CC1659541E227759003DCD9A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CC16592E1E227758003DCD9A /* XppIRCiOS */;
-			targetProxy = CC1659531E227759003DCD9A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		CC16593A1E227758003DCD9A /* Main.storyboard */ = {
+		CC16599A1E22819E003DCD9A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CC16593B1E227758003DCD9A /* Base */,
+				CC16599B1E22819E003DCD9A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CC16593F1E227759003DCD9A /* LaunchScreen.storyboard */ = {
+		CC16599F1E22819E003DCD9A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CC1659401E227759003DCD9A /* Base */,
+				CC1659A01E22819E003DCD9A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -326,7 +172,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CC1659591E227759003DCD9A /* Debug */ = {
+		CC1659A31E22819E003DCD9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +222,7 @@
 			};
 			name = Debug;
 		};
-		CC16595A1E227759003DCD9A /* Release */ = {
+		CC1659A41E22819E003DCD9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -419,7 +265,7 @@
 			};
 			name = Release;
 		};
-		CC16595C1E227759003DCD9A /* Debug */ = {
+		CC1659A61E22819E003DCD9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -432,7 +278,7 @@
 			};
 			name = Debug;
 		};
-		CC16595D1E227759003DCD9A /* Release */ = {
+		CC1659A71E22819E003DCD9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -442,104 +288,30 @@
 				PRODUCT_BUNDLE_IDENTIFIER = bromancer.XppIRCiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		CC16595F1E227759003DCD9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 3YC373B5PT;
-				INFOPLIST_FILE = XppIRCiOSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bromancer.XppIRCiOSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XppIRCiOS.app/XppIRCiOS";
-			};
-			name = Debug;
-		};
-		CC1659601E227759003DCD9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 3YC373B5PT;
-				INFOPLIST_FILE = XppIRCiOSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bromancer.XppIRCiOSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XppIRCiOS.app/XppIRCiOS";
-			};
-			name = Release;
-		};
-		CC1659621E227759003DCD9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 3YC373B5PT;
-				INFOPLIST_FILE = XppIRCiOSUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bromancer.XppIRCiOSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = XppIRCiOS;
-			};
-			name = Debug;
-		};
-		CC1659631E227759003DCD9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 3YC373B5PT;
-				INFOPLIST_FILE = XppIRCiOSUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bromancer.XppIRCiOSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = XppIRCiOS;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC16592A1E227758003DCD9A /* Build configuration list for PBXProject "XppIRCiOS" */ = {
+		CC16598A1E22819E003DCD9A /* Build configuration list for PBXProject "XppIRCiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC1659591E227759003DCD9A /* Debug */,
-				CC16595A1E227759003DCD9A /* Release */,
+				CC1659A31E22819E003DCD9A /* Debug */,
+				CC1659A41E22819E003DCD9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC16595B1E227759003DCD9A /* Build configuration list for PBXNativeTarget "XppIRCiOS" */ = {
+		CC1659A51E22819E003DCD9A /* Build configuration list for PBXNativeTarget "XppIRCiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC16595C1E227759003DCD9A /* Debug */,
-				CC16595D1E227759003DCD9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		CC16595E1E227759003DCD9A /* Build configuration list for PBXNativeTarget "XppIRCiOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC16595F1E227759003DCD9A /* Debug */,
-				CC1659601E227759003DCD9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		CC1659611E227759003DCD9A /* Build configuration list for PBXNativeTarget "XppIRCiOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC1659621E227759003DCD9A /* Debug */,
-				CC1659631E227759003DCD9A /* Release */,
+				CC1659A61E22819E003DCD9A /* Debug */,
+				CC1659A71E22819E003DCD9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CC1659271E227758003DCD9A /* Project object */;
+	rootObject = CC1659871E22819E003DCD9A /* Project object */;
 }

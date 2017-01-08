@@ -297,5 +297,8 @@ xcuserdata/
 *.xccheckout
 *.xcscmblueprint
 
+# OSX
+.DS_store
+
 # Workspace
 .workspace/
